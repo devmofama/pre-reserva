@@ -18,9 +18,9 @@ function initAutocomplete() {
 document.addEventListener('DOMContentLoaded', () => {
     // --- 1. CONFIGURACIÓN CON TUS CLAVES ---
     // ===== CLAVES DE EMAILJS CORREGIDAS =====
-    const EMAILJS_PUBLIC_KEY = 'uu13Uw2hqh0Y2eMy-'; // <-- ¡ESTA ERA LA CLAVE INCORRECTA! YA ESTÁ CORREGIDA.
-    const EMAILJS_SERVICE_ID = 'service_62vzrtr';
-    const EMAILJS_TEMPLATE_ID = 'template_envoogp';
+    const EMAILJS_PUBLIC_KEY = 'k-DxlxLv0f8i7r4Zu'; // <-- ¡ESTA ERA LA CLAVE INCORRECTA! YA ESTÁ CORREGIDA.
+    const EMAILJS_SERVICE_ID = 'service_ix77fb5';
+    const EMAILJS_TEMPLATE_ID = 'template_tgcsq2m';
     // ==========================================
     emailjs.init(EMAILJS_PUBLIC_KEY);
     const loginOverlay = document.getElementById('login-overlay');
@@ -41,13 +41,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const firebaseConfig = {
-      apiKey: "AIzaSyBeoG3uxq3f8wzQgEp0AkhnoWT1TVFLjJs",
-      authDomain: "links-61279.firebaseapp.com",
-      projectId: "links-61279",
-      storageBucket: "links-61279.firebasestorage.app",
-      messagingSenderId: "960181376002",
-      appId: "1:960181376002:web:a4ff47407fabbe82b1c31b",
-      measurementId: "G-PBJ2908N59"
+        apiKey: "AIzaSyBjew3DllsX9QCKzxv_iiNnLojOM0-nwTI",
+        authDomain: "letsgotravel-6dbe2.firebaseapp.com",
+        projectId: "letsgotravel-6dbe2",
+        storageBucket: "letsgotravel-6dbe2.firebasestorage.app",
+        messagingSenderId: "1013273864548",
+        appId: "1:1013273864548:web:671fecb3a9b3f46873f271",
+        measurementId: "G-7W4YQ335XB"
+    //   apiKey: "AIzaSyBeoG3uxq3f8wzQgEp0AkhnoWT1TVFLjJs",
+    //   authDomain: "links-61279.firebaseapp.com",
+    //   projectId: "links-61279",
+    //   storageBucket: "links-61279.firebasestorage.app",
+    //   messagingSenderId: "960181376002",
+    //   appId: "1:960181376002:web:a4ff47407fabbe82b1c31b",
+    //   measurementId: "G-PBJ2908N59"
     };
     firebase.initializeApp(firebaseConfig);
     const storage = firebase.storage();
